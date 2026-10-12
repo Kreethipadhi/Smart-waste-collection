@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+*/node_modules/
+frontend/node_modules/
+
+# Build artifacts & distributions
+dist/
+*/dist/
+frontend/dist/
+build/
+target/
+*.egg-info/
+.eggs/
+
+# Environments & Secret configs
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+.venv/
+venv/
+ENV/
+env/
+
+# Python compiled files & caches
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & debugging
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
